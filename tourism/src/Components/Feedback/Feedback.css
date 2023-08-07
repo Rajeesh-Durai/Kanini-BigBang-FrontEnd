@@ -1,0 +1,55 @@
+.feedback {
+  background: linear-gradient(#2b1055, #7597de);
+  min-height: 100vh;
+}
+.feedcontainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 97.8vh;
+}
+
+#feedtext {
+  position: absolute;
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+#moon {
+  mix-blend-mode: screen;
+}
+.feedcontainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+.feedbackform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f0739;
+}
+.Feedback_Form {
+  width: 500px;
+  background-color: #fffffff2;
+  border-radius: 8px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.feedbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.messagebox {
+  border: none;
+}
